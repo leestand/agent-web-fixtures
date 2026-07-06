@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>Product Image Test Page</title>
+</head>
+<body>
+  <h1>Product Image Test Page</h1>
+
+  <p>
+    이 페이지는 AI Agent가 웹페이지에서 필요한 이미지를 식별하고
+    다운로드할 수 있는지 평가하기 위한 테스트 페이지입니다.
+  </p>
+
+  <h2>Product Images</h2>
+
+  <section>
+    <h3>1. Main Product Image</h3>
+    <p>제품 단독 컷입니다. 평가 시 main_product로 저장해야 합니다.</p>
+    <img
+      src="./assets/images/main_product.svg"
+      alt="Main product image"
+      data-role="main-product"
+      width="360"
+    />
+    <p>
+      Source:
+      <a href="./assets/images/main_product.svg">
+        main_product.svg
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h3>2. Usage Scene Image</h3>
+    <p>사용 장면 이미지입니다. 평가 시 usage_scene으로 저장해야 합니다.</p>
+    <img
+      src="./assets/images/usage_scene.svg"
+      alt="Usage scene image"
+      data-role="usage-scene"
+      width="360"
+    />
+    <p>
+      Source:
+      <a href="./assets/images/usage_scene.svg">
+        usage_scene.svg
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h3>3. Detail Cut Image</h3>
+    <p>제품 상세 이미지입니다. 이번 평가에서는 다운로드 대상이 아닙니다.</p>
+    <img
+      src="./assets/images/detail_cut.svg"
+      alt="Detail cut image"
+      data-role="detail-cut"
+      width="360"
+    />
+    <p>
+      Source:
+      <a href="./assets/images/detail_cut.svg">
+        detail_cut.svg
+      </a>
+    </p>
+  </section>
+
+  <section>
+    <h3>4. Unrelated Banner</h3>
+    <p>무관한 배너 이미지입니다. 이번 평가에서는 제외해야 합니다.</p>
+    <img
+      src="./assets/images/unrelated_banner.svg"
+      alt="Unrelated banner image"
+      data-role="unrelated"
+      width="360"
+    />
+    <p>
+      Source:
+      <a href="./assets/images/unrelated_banner.svg">
+        unrelated_banner.svg
+      </a>
+    </p>
+  </section>
+</body>
+</html>

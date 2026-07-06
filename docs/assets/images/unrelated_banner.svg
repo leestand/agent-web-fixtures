@@ -1,0 +1,6 @@
+<svg width="360" height="120" viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="120" fill="#f4e7fb"/>
+  <rect x="10" y="10" width="340" height="100" rx="12" fill="#ffffff" stroke="#8a3fc2" stroke-width="4"/>
+  <text x="180" y="55" font-family="sans-serif" font-size="20" font-weight="bold" fill="#5a1f8a" text-anchor="middle">UNRELATED BANNER</text>
+  <text x="180" y="85" font-family="sans-serif" font-size="13" fill="#7a4aa2" text-anchor="middle">unrelated_banner.svg (do not download)</text>
+</svg>

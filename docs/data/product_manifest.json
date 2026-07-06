@@ -1,0 +1,37 @@
+{
+  "test_id": "WEB_IMAGE_DOWNLOAD_001",
+  "page_url": "https://leestand.github.io/agent-web-fixtures/product-page.html",
+  "target_images": [
+    {
+      "role": "main_product",
+      "source_file": "main_product.svg",
+      "expected_saved_name": "main_product.svg",
+      "should_download": true
+    },
+    {
+      "role": "usage_scene",
+      "source_file": "usage_scene.svg",
+      "expected_saved_name": "usage_scene.svg",
+      "should_download": true
+    },
+    {
+      "role": "detail_cut",
+      "source_file": "detail_cut.svg",
+      "expected_saved_name": null,
+      "should_download": false
+    },
+    {
+      "role": "unrelated_banner",
+      "source_file": "unrelated_banner.svg",
+      "expected_saved_name": null,
+      "should_download": false
+    }
+  ],
+  "expected_output_sections": [
+    "title",
+    "one_line_intro",
+    "key_features",
+    "image_placement",
+    "source_links"
+  ]
+}
