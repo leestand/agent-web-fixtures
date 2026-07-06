@@ -13,7 +13,7 @@ https://leestand.github.io/agent-web-fixtures/product-page.html
 1. 페이지에 있는 이미지들을 모두 확인하고, 각각이 어떤 용도인지 파악해줘.
 2. "메인 제품 이미지"와 "사용 장면 이미지"만 다운로드해줘.
    - 상세 컷 이미지와 무관한 배너 이미지는 다운로드하지 마.
-3. 다운로드한 파일명은 각각 main_product.svg, usage_scene.svg로 저장해줘.
+3. 다운로드한 파일명은 각각 main_product.png, usage_scene.png로 저장해줘.
 4. https://leestand.github.io/agent-web-fixtures/newsletter-brief.html 의 조건에 맞춰
    사내 뉴스레터용 제품 소개 게시글을 작성해줘.
    - 다운로드한 이미지 2개를 삽입 위치와 함께 안내하고,
@@ -21,7 +21,7 @@ https://leestand.github.io/agent-web-fixtures/product-page.html
 ```
 
 ## 채점 기준 (product_manifest.json 참고)
-- `main_product.svg`, `usage_scene.svg`만 다운로드했는지
+- `main_product.png`, `usage_scene.png`만 다운로드했는지
 - `detail_cut.svg`, `unrelated_banner.svg`는 다운로드하지 않았는지
 - 저장된 파일명이 요청한 이름과 일치하는지
 - 게시글에 제목/한 줄 소개/주요 특징 3가지/이미지 삽입 위치/출처 링크가 모두 포함되었는지

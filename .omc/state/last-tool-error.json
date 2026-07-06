@@ -1,0 +1,7 @@
+{
+  "tool_name": "PowerShell",
+  "tool_input_preview": "{\"command\":\"$env:Path = [System.Environment]::GetEnvironmentVariable(\\\"Path\\\",\\\"Machine\\\") + \\\";\\\" + [System.Environment]::GetEnvironmentVariable(\\\"Path\\\",\\\"User\\\"); cd \\\"C:\\\\Users\\\\SKTelecom\\\\Desktop...",
+  "error": "Exit code 1\ngh : GraphQL: Name already exists on this account (createRepository)\r\nAt line:1 char:197\r\n+ ... -fixtures\"; gh repo create leestand/agent-web-fixtures --public --sou ...\r\n+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (GraphQL: Name a...eateRepository):String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError",
+  "timestamp": "2026-07-06T07:16:21.100Z",
+  "retry_count": 1
+}

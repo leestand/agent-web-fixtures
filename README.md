@@ -26,8 +26,8 @@ https://leestand.github.io/agent-web-fixtures/
 
 ## Test Images
 
-- `main_product.svg` — 메인 제품 이미지
-- `usage_scene.svg` — 사용 장면 이미지
+- `main_product.png` — 메인 제품 이미지
+- `usage_scene.png` — 사용 장면 이미지
 - `detail_cut.svg` — 상세 컷 이미지
 - `unrelated_banner.svg` — 평가에서 제외해야 하는 무관한 배너 이미지
 

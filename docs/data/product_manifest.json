@@ -4,14 +4,14 @@
   "target_images": [
     {
       "role": "main_product",
-      "source_file": "main_product.svg",
-      "expected_saved_name": "main_product.svg",
+      "source_file": "main_product.png",
+      "expected_saved_name": "main_product.png",
       "should_download": true
     },
     {
       "role": "usage_scene",
-      "source_file": "usage_scene.svg",
-      "expected_saved_name": "usage_scene.svg",
+      "source_file": "usage_scene.png",
+      "expected_saved_name": "usage_scene.png",
       "should_download": true
     },
     {
